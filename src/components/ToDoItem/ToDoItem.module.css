@@ -1,0 +1,37 @@
+.todoBlock{
+    display: flex;
+    gap: 10px;
+    border-radius: 12px;
+    padding: 10px;
+    align-items: center;
+    outline: 3px solid cadetblue;
+    font-family: monospace;
+    font-size: 18px;
+}
+.todoInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 12px;
+    padding: 10px;
+    align-items: start  ;
+}
+.removeButton{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.todoInfo p {
+    text-align: left;
+}
+.todoInfo span{
+    color: grey;
+}
+@media (max-width: 540px) {
+    .todoBlock{
+        flex-direction: column;
+    }
+    .removeButton{
+        height: 70px;
+    }
+}

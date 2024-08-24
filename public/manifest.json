@@ -1,25 +1,31 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
+  "name": "PWA React App",
+  "short_name": "PWA TODO",
+  "theme_color": "#4e8d8e",
+  "background_color": "#ac6116",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "orientation": "portrait",
+  "start_url": ".",
+  "icons" : [
+    {
+      "src" : "/icons/android-launchericon-96-96.png",
+      "sizes" : "96x96",
+      "type" : "image/png"
+    },
+    {
+      "src" : "/icons/android-launchericon-144-144.png",
+      "sizes" : "144x144",
+      "type" : "image/png"
+    },
+    {
+      "src" : "/icons/android-launchericon-256-256.png",
+      "sizes" : "256x256",
+      "type" : "image/png"
+    },
+    {
+      "src" : "/icons/android-launchericon-512-512.png",
+      "sizes" : "512x512",
+      "type" : "image/png"
+    }
+  ]
 }
